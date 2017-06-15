@@ -4,19 +4,10 @@
     <title>Sales Estimation</title>
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
   </head>
-  <body onload="changeStore(0);">
-    <script src="js/sales.js"></script>
+  <body>
     <header>
         <h1>Pat's Business : Sales Estimation</h1>
     </header>
-    <div>
-      <table>
-        <tr><td><label for="storeName">Store Name</label></td><td><input type="text" id="storeName"></input></td></tr>
-        <tr><td><label for="minCookiesPerCustomer">Min Cookies Per Customer</label></td><td><input type="text" id="minCookiesPerCustomer"></input></td></tr>
-        <tr><td><label for="maxCookiesPerCustomer">Max Cookies Per Customer</label></td><td><input type="text" id="maxCookiesPerCustomer"></input></td></tr>
-        <tr><td><label for="avgCookiesPerCustomer">Avg Cookies Per Customer</label></td><td><input type="text" id="avgCookiesPerCustomer"></input></td></tr>
-      </table>
-      <button id="submitButton" onclick='saveData();'>Save Data</button>
-    </div>
+    <script src="js/sales.js"></script>
   </body>
 </html>
