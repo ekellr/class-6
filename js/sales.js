@@ -46,7 +46,6 @@ var stores = [
       getCustomersPerHour: function(){
         return Math.floor(Math.random() * (this.MaxCustomersPerHour - this.MinCustomersPerHour + 1) + this.MinCustomersPerHour);
       }
-
     },
 
     {
